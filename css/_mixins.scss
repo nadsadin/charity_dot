@@ -1,0 +1,8 @@
+@mixin padding($class_num, $padding){
+  .pb-#{$class_num}, .py-#{$class_num}{
+    padding-bottom: $padding;
+  }
+  .pt-#{$class_num}, .py-#{$class_num}{
+    padding-top: $padding;
+  }
+}
